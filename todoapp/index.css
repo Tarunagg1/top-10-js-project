@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+h1{
+    color: rgb(179, 131, 226);
+    font-size: 10rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+form{
+    box-shadow: 0 4px 10px rgba(161, 148, 148, 0.1);
+    width: 400px;
+    max-width: 100%;
+    margin: auto;
+}
+.input{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+    border: none;
+}
+input:placeholder{
+    color: #d5d5d5;   
+}
+.todos{
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.todos li{
+    border-top: 3px solid #f5f5f5;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+.todos li.completed{
+    color: #d5d5d5;
+    text-decoration: line-through;
+}
+

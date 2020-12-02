@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1530196606945-81ab3df90d91?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=945&q=80");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 7px;
+}
+
+#countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown_el{
+    text-align: center;
+}
+.countdown_el span{
+    font-size: 1.3rem;
+}
+
+h2{
+    margin-top: 100px;
+}

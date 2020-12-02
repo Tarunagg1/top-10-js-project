@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="quiz_container" id="quiz">
+        <div class="quiz_header">
+            <h2 id="question"></h2>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" name="ans" id="0">
+                    <label id="0_text" for="a"></label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="ans" id="1">
+                    <label id="1_text" for="b"></label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="ans" id="2">
+                    <label id="2_text" for="c"></label>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="ans" id="3">
+                    <label id="3_text" for="d"></label>
+                </li>
+            </ul>
+        </div>
+        <button id="btn">Submit</button>
+    </div>
+
+    <!-- result section -->
+
+    <div class="quiz_container" id="result">
+        <div class="quiz_header">
+            <h2>Final result</h2>
+            <ul>
+                <li>
+                    <label for="a">Total Question :-</label>
+                    <span id="Total_Question" class="resdspan"></span>
+                </li>
+                <li>
+                    <label for="b">Correct :-</label>
+                    <span id="correct" class="resdspan"></span>
+                </li>
+                <li>
+                    <label for="c">Wrong :-</label>
+                    <span id="wrongq" class="resdspan"></span>
+                </li>
+                <li>
+                    <label for="d">No Of Skip :-</label>
+                    <span id="skip" class="resdspan"></span>
+                </li>
+                <li>
+                    <label for="d">No Of Attempt :-</label>
+                    <span id="attempt" class="resdspan"></span>
+                </li>
+                <li>
+                    <label for="d">percentage :-</label>
+                    <span id="percentage" class="resdspan"></span>
+                </li>
+            </ul>
+        </div>
+        <button onclick="reload()">Start again</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
